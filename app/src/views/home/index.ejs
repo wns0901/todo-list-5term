@@ -6,6 +6,8 @@
       data = data.replaceAll("&#34", '"');
       data = data.replaceAll(";", "");
       data = JSON.parse(data);
+      console.log(data[0].description);
+      
 
       function creat(data, index) {
         let newP = document.createElement("div");
